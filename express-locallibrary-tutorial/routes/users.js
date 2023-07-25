@@ -10,4 +10,13 @@ router.get('/cool', function(req, res, next) {
   res.send("You're so cool");
 });
 
+router.get('/cool/beach', function(req, res, next) {
+  res.send("I'm love beach");
+});
+
+router.get('/ifc', function(req, res, next) {
+  res.send("Welcome to IFC!");
+});
+
+
 module.exports = router;
