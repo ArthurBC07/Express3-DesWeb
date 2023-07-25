@@ -18,5 +18,10 @@ router.get('/ifc', function(req, res, next) {
   res.send("Welcome to IFC!");
 });
 
+router.get('/desweb3', function(req, res, next) {
+  res.send("Vou tirar 10 nessa disciplina!");
+});
+
+
 
 module.exports = router;
